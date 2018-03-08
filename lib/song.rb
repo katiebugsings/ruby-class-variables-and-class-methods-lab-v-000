@@ -17,23 +17,12 @@ class Song
   def self.artists
     @@artist
   end
-
-
-
-
-
-
-
-
-  def initialize(name, artist, genre)
-  end
-
-  def name
-    @name = name
-  end
-
-
-  def count
-
-  end
 end
+
+
+
+
+
+
+
+
