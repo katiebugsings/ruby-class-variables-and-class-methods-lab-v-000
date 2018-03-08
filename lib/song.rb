@@ -35,3 +35,4 @@ def self.genre_count
   #unique keys for genres
   #how many genres show up repeatedly
 end
+end
