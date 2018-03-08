@@ -30,6 +30,7 @@ def self.genre_count
   {}
   self.genres.each do |genre|
     binding.pry
+  end
   #return value should be hash
   #unique keys for genres
   #how many genres show up repeatedly
