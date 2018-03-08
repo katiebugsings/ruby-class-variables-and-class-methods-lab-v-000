@@ -1,3 +1,4 @@
+require "pry"
 class Song
   attr_accessor :name, :artist, :genre
   @@count = 0
@@ -24,4 +25,12 @@ class Song
   def self.genres
     @@genres.uniq
 end
+
+def self.genre_count
+  {}
+  self.genres.each do |genre|
+    binding.pry
+  #return value should be hash
+  #unique keys for genres
+  #how many genres show up repeatedly
 end
